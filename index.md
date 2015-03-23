@@ -6,13 +6,13 @@
 
 
 
-*YOUR NEEDS |
-*OUR PORTFOLIO |
-*NEWS & MEDIA |
-*ABOUT COMVERSE |
+*YOUR NEEDS 
+*OUR PORTFOLIO 
+*NEWS & MEDIA 
+*ABOUT COMVERSE 
 
-##**Free** your markets From It **Complexity**
-###Comverse Policy Studio  **1st** Ever Marketign-Oriented Policy Tool
+#**Free** your markets From It **Complexity**
+##Comverse Policy Studio  **1st** Ever Marketign-Oriented Policy Tool
 
 
 
@@ -21,4 +21,4 @@
 * Comverse:Enabling a world of Conected Possibilities  
 
 
-#WHAT CAN WE DO FOR YOU?
+##WHAT CAN WE DO FOR YOU?
