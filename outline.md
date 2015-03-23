@@ -48,7 +48,7 @@
  ![qutation mark](file:///img/quote-grey.png) Comverse has been able to fullly deliver what we want and we have peers...  RAVISHANKER  TATA SKY CIO N  ![HP](file:///img/HP.png) ![ATOS](file:///img/ATOS.png)
 
 [All 256 Succses Stories](http:://comverse.com/succsesStories)
-
+## 
 ###KEY SOULTIONS
 * [monetzing data](http:://comverse.com/montaize)
 * [Over-the-top(OTT)](http:://comverse.com/ott)
@@ -77,4 +77,4 @@
 * [industry involvmnet](http:://comverse.com/industryInvolvment)
 * [careers](http:://comverse.com/careers)
 
-#####Copyright @2012 Comverse inc | Privacy policy
+####Copyright @2012 Comverse inc | Privacy policy
