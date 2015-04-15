@@ -15,6 +15,12 @@ module.exports = function (grunt) {
     files: ['index.md'],
     tasks: ['markdown'],
   },
+  livereload  : {
+    options   : {
+      base    : '',
+    },
+    files     : ['**/*']
+	},
 
 		  markdown: {
     all: {
@@ -27,6 +33,16 @@ module.exports = function (grunt) {
         }
       ]
     }
+  },
+   connect: {
+    example: {
+      port: 1337,
+      base: 'example'
+    },
+    meta: {
+      port: 1338,
+      base: 'tasks'
+    }
   }
 
 	});
@@ -35,6 +51,8 @@ module.exports = function (grunt) {
 	grunt.loadNpmTasks('grunt-contrib-uglify');
 grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-markdown');
+	grunt.loadNpmTasks('grunt-livereload');
+	grunt.loadNpmTasks('grunt-connect');
 
 	// Default task(s).
 	grunt.registerTask('default', ['uglify','watch']);
