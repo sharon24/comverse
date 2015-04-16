@@ -11,16 +11,32 @@ module.exports = function (grunt) {
 				dest: 'dist/js/<%= pkg.name %>.min.js'
 			}
 		},
-		      watch: {
-    files: ['index.md'],
-    tasks: ['markdown'],
-  },
-  livereload  : {
-    options   : {
-      base    : '',
-    },
-    files     : ['**/*']
-	},
+		
+		    watch: {
+  		scripts: {
+    	files: ['outline.md'],
+    	 tasks: ['markdown'],
+    	options: {
+      	spawn: true
+
+    	}
+  	},
+        css: {
+            files: '**/*.css',
+            options: {
+                livereload: true
+            }
+        },
+        html: {
+            files: '*.html',
+            options: {
+                livereload: true
+            }
+
+
+} },
+		
+
 
 		  markdown: {
     all: {
@@ -34,16 +50,17 @@ module.exports = function (grunt) {
       ]
     }
   },
-   connect: {
-    example: {
-      port: 1337,
-      base: 'example'
-    },
-    meta: {
-      port: 1338,
-      base: 'tasks'
-    }
-  }
+    connect: {
+    	server: {
+      		options: {
+        	port: 8080,
+        	protocol: 'http',
+        	base: '.',
+        	hostname: 'localhost',
+        	keepalive: false
+      		}
+    	}
+  	},
 
 	});
 
