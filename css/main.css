@@ -99,19 +99,29 @@ html {
 
 
 .comverse-header {
-    width: 2500px;
-    height: 90px;
+    width: 100%;
+   
     position: fixed; 
     background: white;
     box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.09);
     z-index:10;
+
 }
 
 
+.comverse-header .container {
+    padding-top: 0px;
+    }
+
+
 .search_field {
-    display: inline-block;
-    float:left;
-    padding-top:15px;
+
+
+display: inline-block;
+float: left;
+padding-top: 32px;
+position: relative;
+margin-left: 15px;
 
 }
 
@@ -136,13 +146,7 @@ html {
     cursor: pointer;
     padding-left: 0px;
 }
-.search_field {
-    padding-top: 30px;
-padding-right: 782px;
-padding-left: 50px;
 
-    
-}
 .search_field button {
     border: none;
     background: none;
@@ -156,11 +160,9 @@ padding-left: 50px;
 
 
 .seprator {
-
-
-position: absolute;
-right: 979px;
-top: 66px;
+position: relative;
+right: 38%;
+top: 10%;
 }
 
 .search_field button img {
@@ -168,9 +170,13 @@ top: 66px;
     height:20px;
 }
 
-.nav-container {
-    background-color: white;
-    padding-left: 600px;
+
+.container {
+    
+    max-width: 1090px;
+    margin: 0px auto;
+    padding-top: 60px;
+    padding-bottom: 20px;
 }
 
 .comverse-logo {
@@ -219,24 +225,16 @@ top: 66px;
     border-right: 1px solid #D5D5D5;
     border-bottom: none;
     color: #3399cc;
-    /*padding-bottom: 12px;*/
 }
 
 .nav > li:hover .subnav {
     visibility: visible;
-    max-height:100px;
 }
 
 .subnav {
     background: #FCFCFC;
     position:absolute;
-    left:0;
-    top:29px;
-    z-index:1;
-    max-height:0;
     visibility: hidden;
-    text-align:left;
-    padding:10px 5px 10px 5px;
     box-shadow: 7px 6px 9px -6px grey;
     border-bottom: 1px solid #D5D5D5;
     border-left: 1px solid #D5D5D5;
@@ -277,7 +275,7 @@ top: 66px;
     float:left;
     display:inline-block;
     padding-top:15px;
-    padding-left: 50px;
+    padding-left: 22px;
 }
 
 .nav-side-links a {
@@ -302,7 +300,7 @@ top: 66px;
 body {
     margin: 0 auto;
     color: white;
-    font-size: 14px;
+    font-size: 1em;
     line-height: 1.4;
     font-family: 'Open Sans', sans-serif;
     font-weight: 200;
@@ -323,11 +321,14 @@ a {
 
 
 .main-slide {
-    padding-top: 120px;
-    padding-left: 600px;
-    background-image: url("../img/slide-bg-complexity.jpg");
-    background-attachment: fixed;
-    padding-bottom: 30px;
+background-image: url("../img/slide-bg-complexity.jpg"); 
+background-repeat: no-repeat;   
+
+background-attachment: fixed;
+padding-bottom: 31px;
+padding-top: 92px;
+background-size:cover;
+background-position: center;  
 }
 
 .main-slide article {
@@ -335,7 +336,7 @@ a {
     border-radius: 6px;
     box-shadow: 0px 1px 4px 0px #a2a2a2;
     opacity: 0.8;
-    width: 170px;
+    width: 190px;
     padding: 8px;
     margin-left: 0px;
     display: inline-block;
@@ -362,6 +363,32 @@ a {
     margin-left: 25px;
 }
 
+
+.carousel {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    list-style: outside xnone none;
+    font-size: 0px;
+    text-align: center;
+}
+
+
+.carousel .selected {
+    background-color: #39C;
+    color: #39C;
+}
+.carousel a {
+    width: 12px;
+    height: 12px;
+    background-color: lightgray;
+    color: lightgray;
+    float: left;
+    margin-left: 5px;
+    padding: 0px;
+    border-radius: 3px;
+    display: inline-block;
+}
+
 .btnBlue {
 
     display: block;
@@ -369,8 +396,9 @@ a {
     border-radius:6px;
     font: 1em sans-serif;
     height: 34px;
-    width: 178px;
+    width: 204px;
     text-align: left;
+
 }
 
 .btnBlue a {
@@ -378,56 +406,74 @@ a {
 }
 
 .btnBlue img {
- padding-left: 20px;
+ padding-left: 4px;
 }
 
 
 
 .second-slide{
-    margin-top: -20px;
-    padding-left: 550px;
-    padding-top:30px; 
+
+
     background-color: transparent;
     background-image: url("../img/weDoBG.png"), radial-gradient(ellipse at center center , #59BEDB 0%, #39C 100%);
     padding-bottom: 50px;
+
 }
 
-.second-slide h1,.news-and-event h1{
-    padding-left: 310px;
+.news ol ,.events ol{
+ padding-left:0;
+
+
 }
+
+.second-slide h1,.news-and-event h1,.success-stories h1{
+        text-align: center;
+}
+
+
+
+
 
 .second-slide  li  {
-    text-decoration: none;
     display: inline-block;
-    padding-left: 10px;
     text-align: center;
+    width: 23%;
+    vertical-align:top;
+    margin-left: -83px;
 
-}
-
-.second-slide li>a:hover img {
-    display: none;
-
-}
-
-
-.second-slide li>a:hover:before {
-
-  content: " ";
-  background: url("../img/solution_icon_optimize-efficnt_hover.png") no-repeat;
-
-  padding-left: 100px;
-  padding-top: 45px;
+    
 }
 
 
-.second-slide li>.pic1:hover:before {
 
-  content: " ";
-  background: url("../img/solution_icon_smart-money_hover.png") no-repeat;
 
-  padding-left: 120px;
-  padding-top: 45px;
+
+
+.second-slide .pic1 {
+    background: url("../img/solution_icon_smart-money.png") no-repeat center center;
+    height: 62px;
+  
+
+
 }
+
+
+.second-slide .pic2 {
+    background: url("../img/solution_icon_optimize-efficnt.png") no-repeat center center;
+    height: 62px;
+
+}
+
+
+.second-slide .pic1:hover {
+    background: url("../img/solution_icon_smart-money_hover.png") no-repeat center center;
+}
+
+
+.second-slide .pic2:hover {
+    background: url("../img/solution_icon_optimize-efficnt_hover.png") no-repeat center;
+}
+
 
 
 .second-slide  li a  {
@@ -435,7 +481,14 @@ a {
 }
 
 .second-slide  button  {
-    margin-left: 420px;
+    margin-left: 40%;
+margin-top: 5%;
+}
+
+.success-stories .btnBlue {
+
+margin-top: 41%;
+margin-left: 40%;
 }
 
 .news  h1,.news  img ,.events  img,.events  h1 {
@@ -444,21 +497,25 @@ a {
 }
 .news-and-event {
 
-    padding-left: 550px;
-    padding-top:50px; 
     background-image: url("../img/news-and-events-bg.jpg");
     padding-bottom: 80px;
-    margin-bottom: 0px;
+    
     background-attachment: fixed;
+    background-repeat: no-repeat;   
+   
+    background-position: center;  
+     background-size:cover;
+
+ 
 }
 
 
 .news-and-event h4 {
     float:left;
 }
-.events {
-   float:right;
-   padding-right: 545px;
+
+.news h2{
+   text-align: left;
 }
 
 
@@ -499,6 +556,13 @@ span.month {
     width: 55px;
     text-align: center;
 }
+
+.news-and-event a {
+    float:left;
+    margin-left: -40px;
+
+}
+
 .news-and-event a:hover {
     color:black;
 }
@@ -547,12 +611,89 @@ span.month {
 
 }
 
+.client-list {
+    padding-left: 0px;
+    list-style: none;
+}
 
+.client-list li {
+    display: inline-block;
+    width: 35.2%;
+    float: left;
+    margin: 4px;
+    padding: 2px;
+}
+
+#two-icons-client {
+    width: 23.5%;
+}
+
+#two-icons-client .client-icon {
+width: 45%;
+}
+
+#two-icons-client   > blockquote>  p {
+float: left;
+width: 100%;
+border-bottom: 0.1px solid ;
+}
+.client-list li  blockquote {
+    padding: 10px;
+    margin: 0px auto;
+    background: none repeat scroll 0% 0% #FFF;
+    border-radius: 3px;
+}
+
+.client-list  li  blockquote  p {
+color: lightgray;
+margin: 0px auto;
+float: right;
+width: 65%;
+}
+
+
+.client-icon {
+    display: inline-block;
+    margin: 10px 6px 0px 0px;
+    background: none repeat scroll 0% 0% #FFF;
+    width: 30%;
+    height: 50%;    
+    border-radius: 3px;
+    text-align: center;
+
+}
+
+.client-list cite {
+    font-size: 70%;
+}
+.client-list  .name {
+    color: #47ACDD;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    float: left;
+}
+
+.client-list  .office {
+    float: left;
+}
+
+#two-icons-client  >.person-logo {
+     max-width: 10%x;
+}
+.person-logo {
+    max-width: 80%x;
+
+
+}
+
+
+#two-icons-client  .person-logo {
+     max-width: 35%;
+}
 .footer {
 
-    margin-top: 0px;
-    padding-left: 550px;
-    padding-top:30px; 
+    
+ 
     background-color: transparent;
     background-image: url("../img/footerBG.png"), radial-gradient(ellipse at center center , #59BEDB 0%, #39C 100%);
     padding-bottom: 50px;
@@ -562,8 +703,9 @@ span.month {
 .footer li, .footer a {
     color:lightgray;
 }
-.footer li {
-    list-style-type: none;
+.footer ol {
+    list-style:none;
+    padding-left:0;
 }
 
 
@@ -580,12 +722,14 @@ span.month {
 }
 
 .social-networking {
-    padding: 20px;
+    padding: 10px;
     list-style-type: none;
     display: inline-block;
-    width: 230px;
+    width: 23%;
     background-color: gray;
     margin-right: 20px;
+    margin-top:-59px;
+    margin-left: 10px;
 
 }
 
@@ -614,13 +758,36 @@ span.month {
 }
 
 .social-networking .btnBlue {
-width: 67px;
+width: 70px;
 height: 28px;
+float: right;
+margin-right: 5px;
 }
+
+.social-networking  input {
+    width: 65%;
+}
+
+.social-list {
+    padding: 0px;
+}
+
+.social-list li {
+     list-style-type: none;
+text-decoration: none;
+display: inline-block;
+
+}
+
 .nav-section {
     display: inline-block;
     float:left;
     margin-left: 50px;
+     color: #D3D3D3;
+}
+
+.copyright {
+  color: #D3D3D3;  
 }
 
 .footer >p {
