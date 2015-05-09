@@ -109,9 +109,9 @@ html {
 }
 
 
-.comverse-header .container {
+.comverse-header .header-container {
     padding-top: 0px;
-    }
+}
 
 
 .search_field {
@@ -171,7 +171,7 @@ top: 10%;
 }
 
 
-.container {
+.container ,.header-container{
     
     max-width: 1090px;
     margin: 0px auto;
@@ -801,6 +801,20 @@ h1{
     text-transform: uppercase;
     margin: 0px 0px 20px;
 }
+
+
+/*  ------------------------MEDIA QUERIES-----------------------*/
+
+@media all and (max-width:768px) {
+
+    .search_field input {
+        display: none;
+    }
+
+}
+
+
+
 
 /* ==========================================================================
    Helper classes
