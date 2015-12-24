@@ -70,7 +70,7 @@
                                 </div>
                             </li>
                             <li>
-                                <a href="#">News and media</a>
+                                <a href="#">News & media</a>
                                 <div class="subnav">
                                     <ul class="subnav-left">
                                         <li><a href="#">item</a></li>
@@ -104,17 +104,39 @@
                             </li>
                         </ul>
                     </nav>
-                    <div class="nav-side-links">
+
+
+                    <div class="login right">
+                    <ul>
+                        <li class="login-menu-item"><a href="">Customer login</a></li>
+                        <li class="login-menu-item no-background">
+                            <select class="language-menu no-margin">
+                                <option value="English">EN</option>
+                                <option value="עברית">עברית</option>
+                            </select>
+                        </li>
+                    </ul>
+                </div>
+
+
+
+                <!--       <div class="nav-side-links right">
                         <a href="#">en</a> 
                         <button type="submit"> <img src="img/navCollapseArrowDown.png"  /></button>
 
                         | <a href="#">Customer login</a>
                     </div>
-                    <form class="search_field" method="GET" action="http://www.comverse.com/search">
-                        <input type="text" />
+                    -->
+
+                    <form class="search_field right" method="GET" action="http://www.comverse.com/search">
+                        <input name="search" class="search left" type="search"   autocomplete="off">     <!--  on old browsers will be text -->
+                        <input name="submit" value="" class="submit left" type="submit">
+
+
+<!--                        <input type="text" />
                         
                         <button type="submit"><img src="img/searchBtn.png"  /></button>
-                        <img class="seprator" src="img/search_line_devider.png"  /> <!-- #problem-->
+                        <img class="seprator" src="img/search_line_devider.png"  /> -->
                     </form>
                 </div>
             </header>
@@ -167,7 +189,6 @@
 
                     </article>
                 </div>    
-                <img src="img/solution_icon_smart-money.png" alt="Data monetzation">  
             </section>
             <section class="second-slide">
              <div class="container">

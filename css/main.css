@@ -117,28 +117,46 @@ html {
 .search_field {
 
 
-display: inline-block;
-float: left;
-padding-top: 32px;
-position: relative;
-margin-left: 15px;
+border: 1px solid #D2D2D2;
+border-radius: 6px;
+margin-top: -36px;
+
+
 
 }
 
 
 
-.search_field input {
-    padding: 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    height:20px;
-    outline: none;
-    padding-left: 5px;
-    display: inline-block;
-    width: 140px;
+
+
+
+.search {
+    width: 135px;
+    height: 20px;
+    border: medium none;
+    margin: 0px 5px;
+    border-radius: 6px;
+    background: #FFF url("../img/divider.png") no-repeat scroll right center;
+    outline: medium none;
+    color:black;
 
 }
+.left {
+    float: left;
+}
 
+.right {
+    float: right;
+}
+
+.submit {
+    background: #FFF url("../img/searchBtn.png") no-repeat scroll right center;
+    border: medium none;
+    margin-right: 8px;
+    padding-top: 5px;
+    outline: medium none;
+    cursor: pointer;
+}
 
 .nav-side-links button {
     border: none;
@@ -172,7 +190,7 @@ background-color: green;
 }
 
 
-.container ,.header-container{
+.container {
     
     max-width: 1090px;
     margin: 0px auto;
@@ -180,9 +198,17 @@ background-color: green;
     padding-bottom: 20px;
 }
 
+.header-container{
+    width: 950px;
+margin: 0px auto;
+padding: 0px;
+
+    }
+
 .comverse-logo {
     display: inline-block;
-    float:left
+    float:left;
+    margin-top: 24px;
 }
 
 .navbar {
@@ -273,10 +299,11 @@ background-color: green;
 }
 
 .nav-side-links {
-    float:left;
+    float:right
     display:inline-block;
     padding-top:15px;
     padding-left: 22px;
+    margin-top: -20px;
 }
 
 .nav-side-links a {
@@ -297,7 +324,45 @@ background-color: green;
     float:left;
 }
 
+/*temp */
 
+
+.login {
+    margin-top: -110px;
+}
+
+
+
+.login-menu-item {
+    float: right;
+    padding-left: 10px;
+    list-style-type: none;
+    background: #FFF url("img/divider.png") no-repeat scroll left center;
+    outline: medium none;
+}
+
+
+
+.no-background {
+    background: transparent none repeat scroll 0% 0% !important;
+}
+
+
+
+.language-menu {
+    width: 45px;
+    border: medium none;
+    color: #585951;
+    padding: 0px;
+
+
+}
+.no-margin {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+/*temp */
 body {
     margin: 0 auto;
     color: white;
@@ -451,8 +516,8 @@ background-position: center;
 
 
 .second-slide .pic1 {
-    background: url("../img/solution_icon_smart-money.png") no-repeat center center;
-    height: 62px;
+    background: url("../img/data-monetization.png") no-repeat center center;
+    height: 80px;
   
 
 
@@ -460,19 +525,19 @@ background-position: center;
 
 
 .second-slide .pic2 {
-    background: url("../img/solution_icon_optimize-efficnt.png") no-repeat center center;
-    height: 62px;
+    background: url("../img/mtm-icon.png") no-repeat center center;
+    height: 80px;
 
 }
 
 
 .second-slide .pic1:hover {
-    background: url("../img/solution_icon_smart-money_hover.png") no-repeat center center;
+    background: url("../img/data-monetization-hover.png") no-repeat center center;
 }
 
 
 .second-slide .pic2:hover {
-    background: url("../img/solution_icon_optimize-efficnt_hover.png") no-repeat center;
+    background: url("../img/mtm-icon-hover.png") no-repeat center center;
 }
 
 
