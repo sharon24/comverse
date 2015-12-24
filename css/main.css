@@ -531,14 +531,18 @@ background-position: center;
 }
 
 
-.second-slide .pic6:hover {
-    background: url("../img/solution_icon_social-media_hover.png") no-repeat center center;
+
+
+.social_media:hover >figure>.social_media_pic {
+
+    background: url("../img/solution_icon_social_media_hover.png") no-repeat center center;
 }
 
-.second-slide .pic6 {
-    background: url("../img/solution_icon_social-media_hover.png") no-repeat center center;
-    height: 90px;
 
+
+.social_media_pic {
+    background: url("../img/solution_icon_social_media.png") no-repeat center center;
+    height: 90px;
 }
 
 
