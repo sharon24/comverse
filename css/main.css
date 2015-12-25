@@ -199,7 +199,7 @@ background-color: green;
 }
 
 .header-container{
-    width: 950px;
+    width: 940px;
 margin: 0px auto;
 padding: 0px;
 
@@ -465,84 +465,58 @@ background-position: center;
 
 
 
+.soultion>figure>div {
+     height: 90px;
+}
 
-
-.second-slide .pic1 {
+#data_monetzation_pic {
     background: url("../img/data-monetization.png") no-repeat center center;
-    height: 90px;
-  
-
-
 }
 
-
-.second-slide .pic2 {
-    background: url("../img/mtm-icon.png") no-repeat center center;
-    height: 90px;
-
-}
-
-
-.second-slide .pic1:hover {
+.soultion:hover #data_monetzation_pic{
     background: url("../img/data-monetization-hover.png") no-repeat center center;
 }
 
 
-.second-slide .pic2:hover {
+#machine_to_machine_pic{
+    background: url("../img/mtm-icon.png") no-repeat center center;
+}
+
+.soultion:hover #machine_to_machine_pic {
     background: url("../img/mtm-icon-hover.png") no-repeat center center;
 }
 
-
-
-.second-slide .pic3 {
+#over_the_top_pic {
     background: url("../img/solution_icon_over_the_top.png") no-repeat center center;
-    height: 90px;
-
 }
 
 
-.second-slide .pic3:hover {
+.soultion:hover #over_the_top_pic  {
     background: url("../img/solution_icon_over_the_top_hover.png") no-repeat center center;
 }
 
-.second-slide .pic4 {
+#cloud_computing_pic {
     background: url("../img/solution_icon_cloud_computing.png") no-repeat center center;
-    height: 90px;
-
 }
 
-
-
-.second-slide .pic4:hover {
+.soultion:hover #cloud_computing_pic  {
     background: url("../img/solution_icon_cloud_computing_hover.png") no-repeat center center;
 }
 
+#managed_services_pic {
+    background: url("../img/solution_icon_managed_services.png") no-repeat center center;
+}
 
-
-
-.second-slide .pic5:hover {
+.soultion:hover #managed_services_pic  {
     background: url("../img/solution_icon_managed_services_hover.png") no-repeat center center;
 }
 
-.second-slide .pic5 {
-    background: url("../img/solution_icon_managed_services.png") no-repeat center center;
-    height: 90px;
-
-}
-
-
-
-
-.social_media:hover >figure>.social_media_pic {
-
-    background: url("../img/solution_icon_social_media_hover.png") no-repeat center center;
-}
-
-
-
-.social_media_pic {
+#social_media_pic {
     background: url("../img/solution_icon_social_media.png") no-repeat center center;
-    height: 90px;
+}
+
+.soultion:hover #social_media_pic {
+    background: url("../img/solution_icon_social_media_hover.png") no-repeat center center;
 }
 
 
