@@ -647,14 +647,20 @@ span.month {
     color: white;
 }
 
+
+#all_events_2_btn {
+    padding-left: 190px
+}
+
 .success-stories {
 
-    background-color: #ECECEC;
-    color: #565656;
+
+   
     margin-top: -15px;
 
     padding-top: 0;
-
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: #7c7c7c;
 }
 
 .client-list {
@@ -754,7 +760,9 @@ width: 65%;
     padding-left:0;
 }
 
-
+.footer a:hover {
+    text-decoration: underline;
+}
 .social-networking span.day {
 
     background-color: gray;
