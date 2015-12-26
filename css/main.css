@@ -289,7 +289,7 @@ padding: 0px;
     float: right;
     padding-left: 10px;
     list-style-type: none;
-    background: #FFF url("img/divider.png") no-repeat scroll left center;
+    background: #FFF url("../img/divider.png") no-repeat scroll left center;
     outline: medium none;
 }
 
@@ -733,8 +733,12 @@ width: 65%;
      max-width: 10%x;
 }
 .person-logo {
-    max-width: 80%x;
-
+    max-width: 80%;
+    filter: gray; /* IE6-9 */
+    filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    opacity:0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
 
 }
 
