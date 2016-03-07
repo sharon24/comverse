@@ -371,6 +371,10 @@ a {
     margin-left: 25px;
 }
 
+.main-slide-articles:hover a {
+    text-decoration: underline;
+}
+
 
 
 
@@ -630,29 +634,6 @@ span.month {
     background: #ECECEC;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #arrow-top {
     display: inline-block;
     position:relative;
@@ -665,73 +646,6 @@ span.month {
 .center {
     text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .success-stories {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
@@ -764,6 +678,8 @@ span.month {
     padding: 18px;
     border-radius: 2px;
     margin: 0 0 10px 0;
+    z-index: 1;
+    position: relative;
 }
 
 .story-details.down-view {
@@ -842,13 +758,13 @@ img.company-logo {
     filter: grayscale(100%) opacity(100%);
 }
 
-.client-logo:after {
 
 
+.client-logo:after,.story-details:after{
     background-image: url("../img/logos_generic_2nd_side_cut_02_w108px_x_h95px.jpg");
     background-repeat: no-repeat;   
     background-position: center;  
-
+    background-color: #3398CC;
     content: "";
     position: absolute;
     bottom: 0; 
@@ -859,7 +775,10 @@ img.company-logo {
     transition: height 0.3s;
 }
 
-.client-logo:hover:after {
+
+
+
+.client-logo:hover:after ,.story-details:hover:after{
     height: 100%;
 }
 
@@ -1353,6 +1272,7 @@ h1{
 .main-slide-articles article:last-child {
     margin: 10px 0 10px 0;
 }
+
 
 
 .second-slide h1 {
