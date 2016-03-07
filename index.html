@@ -61,8 +61,10 @@
                             <li class="login-menu-item"><a href="">Customer login</a></li>
                             <li class="login-menu-item no-background">
                                 <select class="language-menu no-margin">
-                                    <option label="English" value="English">EN</option>
-                                    <option label="יHebrew" value="יHebrew">עב</option>
+                                    <label for="English">English</label>
+                                    <option id="English" value="English">EN</option>
+                                     <label for-"Hebrew">יHebrew</label>
+                                    <option id="Hebrew" value="יHebrew">עב</option>
                                 </select>
                             </li>
                         </ul>
@@ -94,9 +96,9 @@
 
 
                     <form method="GET" action="search.html" class="search_field right">
-                        <label for="search">Search Box</label>
+                        <label for="search"  class="hidden">Search Box</label>
                         <input  id= "search" type="search" name="search" class="search left">
-                        <label for="submit-search">Search</label>
+                        <label for="submit-search" class="hidden">Search</label>
                         <input id="submit-search" type="submit" name="submit" value="search" class="submit left">
                     </form>
 
@@ -495,9 +497,9 @@
             <hr>
             <h3>SUBSCRIBE TO COMVERSE </h3>
             <form class="subscribe-form">
-                <label for="email">Email</label>
+                <label for="email" class="hidden">email address</label>
                 <input id="email" placeholder="email address" class="subscribe-email" type="email">
-                <label for="signup">Sign up</label>
+                <label for="signup"  class="hidden">Sign up</label>
                 <input id="signup" value="SIGN UP" class="subscribe-submit" type="submit">
             </form>
 
