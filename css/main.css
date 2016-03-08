@@ -737,6 +737,7 @@ padding-right: 30px;
 .company {
     font-weight: normal;
     margin: 0;
+
 }
 
 .company-logo {
@@ -1222,7 +1223,7 @@ h1{
 .blue-button {
     height: 64px;
     width: 296px;
-    margin: 10px;
+    margin: 25px;
     font-size: 27px;
 }
 
@@ -1444,7 +1445,7 @@ span.day,span.month {
 }
 
 .success-stories {
-    height: 707px;
+    height: 730px;
 }
 
 .story-item {
@@ -1482,7 +1483,7 @@ span.day,span.month {
 }
 
 .success-stories   footer {
-    height: 10px;
+    height: 18px;
 }
 footer {
     height: 180px;
