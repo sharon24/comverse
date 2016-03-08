@@ -173,6 +173,7 @@
 
 .submit {
     background: #FFF url("../img/searchBtn.png") no-repeat scroll right center;
+    text-align: middle;
     border: medium none;
     margin-right: 8px;
     padding-top: 5px;
@@ -300,6 +301,7 @@ body {
     line-height: 1.4;
     font-family: 'Open Sans', sans-serif;
     font-weight: 200;
+
 
 }
 
